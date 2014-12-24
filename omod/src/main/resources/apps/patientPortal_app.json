@@ -1,0 +1,19 @@
+[
+    {
+        "id": "patientportal",
+        "description": "patientportal desc",
+        "order": 10,
+        "extensions": [
+            {
+                "id": "patientportal",
+                "extensionPointId": "org.openmrs.referenceapplication.homepageLink",
+                "type": "link",
+                "order": 10,
+                "label": "Patient Portal",
+                "url": "patientportal/patientPortalHome.page",
+                "icon": "icon-user-md",
+                "requiredPrivilege": "App: patientportal"
+            }
+        ]
+    }
+]
