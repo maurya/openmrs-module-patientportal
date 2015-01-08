@@ -10,13 +10,6 @@
 	    </div>
 	    
 	    <ul class="user-options">
-	   
-	    <li class="search">
-	    <span id="search-wrapper" class="searcher">
-        <input type="search" class="patient-portal-search"  placeholder="Search" size="40"/>
-        <span class="add-on"><i class="icon-search small"></i></span>
-    </span>
-	        </li>
 	        <li class="identifier">
 	            <i class="icon-user small"></i>
 	            admin
@@ -26,9 +19,6 @@
 	        </li>
 	         <li class="messages">
 	            <i class="icon-envelope-alt small"></i>
-	        </li>
-	         <li class="notifications">
-	            <i class="icon-globe small"></i>
 	        </li>
 	        <li class="logout">
 	            <a href="/openmrs/logout">
@@ -44,4 +34,6 @@
                 <a href="profile.page">Profile</a>
                 <a href="connections.page">Connections</a>
                <a href="community.page">Community</a>
+               <a href="sideeffects.page">Side Effects</a>
+               <a href="burdetteportal.page">Symptom Management</a>
         </nav>
