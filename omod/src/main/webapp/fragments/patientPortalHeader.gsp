@@ -30,10 +30,10 @@
 
 	</header>
 	 <nav >
-	 			<a class="active" href="patientPortalHome.page">Home</a>
-                <a href="profile.page">Profile</a>
-                <a href="connections.page">Connections</a>
-               <a href="community.page">Community</a>
-               <a href="sideeffects.page">Side Effects</a>
-               <a href="burdetteportal.page">Symptom Management</a>
+	 			<a id="titleBarHome"  href="patientPortalHome.page">Home</a>
+                <a id="titleBarProfile" href="patientPortalProfile.page">Profile</a>
+                <a id="titleBarConnections" href="connections.page">Connections</a>
+               <a id="titleBarCommunity" href="community.page">Community</a>
+               <a id="titleBarSideEffects" href="sideeffects.page">Side Effects</a>
+               <a id="titleBarSymptomManagement" href="burdetteportal.page">Symptom Management</a>
         </nav>

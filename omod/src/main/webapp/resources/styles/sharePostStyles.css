@@ -1,5 +1,5 @@
 .journal-share {
-  width: 70%;
+  width: 97%;
   padding: 0 0 0px 0;
   text-align: left;
   background: white;
@@ -92,6 +92,10 @@
 .journal-share .journal-share-footer a.post-button {
   margin:2px 0px 0px 0px;
   background: #363463;color:white;
+}
+.post-button {
+	padding-top: 2px !important;
+	padding-bottom:2px !important;
 }
 
 .share-text-area {

@@ -1,3 +1,5 @@
+ <link rel="stylesheet" href="${ ui.resourceLink("patientportal", "styles/sharePostStyles.css") }" type="text/css">
+ <script type="text/javascript" src="/openmrs/ms/uiframework/resource/patientportal/scripts/bootstrap.min.js"></script>
 <%
   ui.includeCss("patientportal", "sharePostStyles.css")
     ui.includeJavascript("patientportal", "jquery.autosize.js")
