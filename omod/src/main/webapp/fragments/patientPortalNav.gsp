@@ -16,6 +16,12 @@
 span.glyphicon-calendar,span.glyphicon-envelope {
     font-size: 1.7em;
 }
+body {
+background: #eee;
+}
+.bgcontent {
+background: #fff;
+}
 </style>
  </head>
 
