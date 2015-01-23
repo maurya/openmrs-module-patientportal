@@ -26,7 +26,7 @@ span.glyphicon-calendar,span.glyphicon-envelope {
       <span class="icon-bar"></span>
     </button>
   <div class="navbar-header">
-    <a class="active navbar-brand" href="patientPortalHome.page">Home</a>
+    <a class="navbar-brand" href="patientPortalHome.page">Home</a>
   </div>
   <div class="navbar-collapse collapse navbar-responsive-collapse">
     <ul class="nav navbar-nav">

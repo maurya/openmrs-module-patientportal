@@ -1,19 +1,10 @@
-<%
-    ui.decorateWith("uicommons", "html5")
- ui.includeJavascript("patientportal", "jquery-1.11.1.js")
- ui.includeCss("patientportal", "patientPortalStyles.css")
- ui.includeCss("patientportal", "patientPortalProfileStyles.css")
-%>
+${ ui.includeFragment("patientportal", "patientPortalNav") }
+
 <script  type="text/javascript">
-var jq = jQuery;
  \$(document).ready(function(){
-    \$('.animated').autosize();  
-     \$('#titleBarProfile').addClass('active')  
+     \$('#titleBarProfile').addClass('active');  
 });
 </script>
-
- <body data-spy="scroll" data-target="#menu">
-   ${ ui.includeFragment("patientportal", "patientPortalHeader") }
 		   
 		     <div class="patient-header new-patient-header">
 		    <div class="demographics">
@@ -51,5 +42,3 @@ ${ ui.includeFragment("patientportal", "sharePost") }
 	    ${ ui.includeFragment("patientportal", "viewPost") }		
 	    		
 </div>
-
-</body>
