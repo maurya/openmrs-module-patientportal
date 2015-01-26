@@ -22,6 +22,27 @@ background: #eee;
 .bgcontent {
 background: #fff;
 }
+.well {
+padding-bottom: 0px;
+padding-top: 5px;
+}
+.form-group{
+margin-bottom: 7px;
+}
+.form-horizontal{
+margin-bottom: 0px;
+}
+.btn-info {
+padding: 3px 15px;
+}
+.journal {
+margin-top: 20px;
+}
+hr {
+width: 95%; 
+height: 5px;  
+background: #eee;
+}
 </style>
  </head>
 

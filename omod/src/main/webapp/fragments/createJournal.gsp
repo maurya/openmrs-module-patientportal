@@ -1,23 +1,4 @@
-<style type="text/css"> 
-.well {
-padding-bottom: 0px;
-padding-top: 5px;
-}
-.form-group{
-margin-bottom: 7px;
-}
-.form-horizontal{
-margin-bottom: 0px;
-}
-.btn-info {
-padding: 3px 15px;
-}
-.journal {
-margin-top: 20px;
-}
-
-</style>  
-    <div class="col-lg-8 col-lg-offset-2 journal">
+<div class="col-lg-8 col-lg-offset-2 journal">
             <div class="well bs-component">
     <form class="form-horizontal">
   <fieldset>

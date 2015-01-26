@@ -6,7 +6,7 @@ ${ ui.includeFragment("patientportal", "patientPortalNav") }
 });
 </script>
 		   
-		     <div class="patient-header new-patient-header">
+		     <div class="container bgcontent">
 		    <div class="demographics">
         <h1 class="name">
             <span>John Rambo</span>
@@ -29,16 +29,4 @@ ${ ui.includeFragment("patientportal", "patientPortalNav") }
             </span>
         </h1>
     </div>		       
-</div>
-    <div class="container">
-	    <div class="dashboard clear">
-	    	<div class="container">
-	    		
-${ ui.includeFragment("patientportal", "sharePost") }
-
-	    		
-	    		<hr class="divisionbar" />
-	    		
-	    ${ ui.includeFragment("patientportal", "viewPost") }		
-	    		
-</div>
+</div>	
