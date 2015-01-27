@@ -11,10 +11,11 @@
     
     
     <div class="form-group">
-      <div class="col-lg-12">
-        <textarea class="form-control" rows="3"  placeholder="How are you feeling today?" id="textArea"></textarea>
-      </div>
-    </div>
+		<div class="col-lg-12">
+			<textarea class="form-control" rows="3"
+				placeholder="How are you feeling today?" id="textArea"></textarea>
+		</div>
+	</div>
     <div class="form-group">
       <div class="col-lg-12">
         <button type="submit" class="btn btn-info pull-right">post</button>
