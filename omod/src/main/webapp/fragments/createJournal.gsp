@@ -18,8 +18,8 @@
 	</div>
     <div class="form-group">
       <div class="col-lg-12">
-        <button type="submit" class="btn btn-info pull-right">post</button>
-         <a href="#" style="padding-right: 20px;" class="pull-right">clear</a>
+        <button type="submit" class="btn btn-info pull-right">Post</button>
+         <a href="#" style="padding-right: 20px;" class="pull-right">Clear</a>
       </div>
     </div>
   </fieldset>

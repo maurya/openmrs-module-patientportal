@@ -22,5 +22,12 @@ ${ ui.includeFragment("patientportal", "patientPortalNav") }
 		</address>
 	</div>
 	<br>
-	<div class="container bgcontent">hello hello</div>
+	<div class="container bgcontent">${ ui.includeFragment("patientportal", "treatmentSummary") }
+	<hrs>
+	${ ui.includeFragment("patientportal", "treatmentHistorySurgery") }
+	<hrs>
+	${ ui.includeFragment("patientportal", "treatmentHistoryChemotherapy") }
+	<hrs>
+	${ ui.includeFragment("patientportal", "treatmentHistoryRadiation") }
+	</div>
 </body>
