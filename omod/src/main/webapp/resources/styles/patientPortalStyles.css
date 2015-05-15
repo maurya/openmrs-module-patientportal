@@ -1,24 +1,23 @@
-
 .animated {
-				-webkit-transition: height 0.2s;
-				-moz-transition: height 0.2s;
-				transition: height 0.2s;
+	-webkit-transition: height 0.2s;
+	-moz-transition: height 0.2s;
+	transition: height 0.2s;
 }
 
 .divisionbar {
-background:#eee; 
-border:0;
- height:1px; 
- width:95%;
+	background: #eee;
+	border: 0;
+	height: 1px;
+	width: 95%;
 }
 
-.input-append.date .add-on i,
-.input-prepend.date .add-on i {
-  cursor: pointer;
-  width: 14px;
-  height: 14px;
+.input-append.date .add-on i,.input-prepend.date .add-on i {
+	cursor: pointer;
+	width: 14px;
+	height: 14px;
 }
+
 .add-on {
-  position: relative;
-  left: -31px;
+	position: relative;
+	left: -31px;
 }

@@ -45,7 +45,7 @@ body {
 
 .well {
 	padding-bottom: 0px;
-	padding-top : 5px;
+	padding-top: 5px;
 }
 
 .form-group {

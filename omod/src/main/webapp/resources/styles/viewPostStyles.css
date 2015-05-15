@@ -1,89 +1,87 @@
-
 .journal-viewable-post {
-  width: 97%;
-  padding: 0 0 0px 0;
-  text-align: left;
-  background: white;
-  border-style: solid;
-    border-width: 1px;
-    border-color: #eee;
-  margin: 20px auto;
-  max-width: 100%;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -o-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -khtml-border-radius: 3px;
-  border-radius: 3px;
+	width: 97%;
+	padding: 0 0 0px 0;
+	text-align: left;
+	background: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #eee;
+	margin: 20px auto;
+	max-width: 100%;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
 }
 
 .journal-viewable-post .journal-viewable-post-header {
-  padding: 10px 10px 10px 10px;
-  height: 30px;
-  -moz-border-radius-topleft: 3px;
-  -webkit-border-top-left-radius: 3px;
-  -o-border-top-left-radius: 3px;
-  -ms-border-top-left-radius: 3px;
-  -khtml-border-top-left-radius: 3px;
-  border-top-left-radius: 3px;
-  -moz-border-radius-topright: 3px;
-  -webkit-border-top-right-radius: 3px;
-  -o-border-top-right-radius: 3px;
-  -ms-border-top-right-radius: 3px;
-  -khtml-border-top-right-radius: 3px;
-  border-top-right-radius: 3px;
+	padding: 10px 10px 10px 10px;
+	height: 30px;
+	-moz-border-radius-topleft: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-o-border-top-left-radius: 3px;
+	-ms-border-top-left-radius: 3px;
+	-khtml-border-top-left-radius: 3px;
+	border-top-left-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-o-border-top-right-radius: 3px;
+	-ms-border-top-right-radius: 3px;
+	-khtml-border-top-right-radius: 3px;
+	border-top-right-radius: 3px;
 }
 
 .journal-viewable-post .journal-viewable-post-header i {
-  font-size: 1em;
-  vertical-align: middle;
-  display: inline-block;
-  margin-bottom: 2px;
+	font-size: 1em;
+	vertical-align: middle;
+	display: inline-block;
+	margin-bottom: 2px;
 }
 
 .journal-viewable-post .journal-viewable-post-content {
-height:50px;
-  padding: 10px 20px 0px 40px;
+	height: 50px;
+	padding: 10px 20px 0px 40px;
 }
 
-
 .journal-viewable-post select {
-  margin: 5px 0;
-  color: #363463;
-  background-color: #FFF;
-  border: none;
-  width: auto;
+	margin: 5px 0;
+	color: #363463;
+	background-color: #FFF;
+	border: none;
+	width: auto;
 }
 
 .journal-viewable-post select option {
-  font-size: 1em;
-  
+	font-size: 1em;
 }
 
 .journal-viewable-post .journal-viewable-post-footer {
-  background: #eee;
-  padding: 10px 10px 10px 10px;
-  height: 30px;
-  -moz-border-radius-topleft: 3px;
-  -webkit-border-top-left-radius: 3px;
-  -o-border-top-left-radius: 3px;
-  -ms-border-top-left-radius: 3px;
-  -khtml-border-top-left-radius: 3px;
-  border-top-left-radius: 3px;
-  -moz-border-radius-topright: 3px;
-  -webkit-border-top-right-radius: 3px;
-  -o-border-top-right-radius: 3px;
-  -ms-border-top-right-radius: 3px;
-  -khtml-border-top-right-radius: 3px;
-  border-top-right-radius: 3px;
+	background: #eee;
+	padding: 10px 10px 10px 10px;
+	height: 30px;
+	-moz-border-radius-topleft: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-o-border-top-left-radius: 3px;
+	-ms-border-top-left-radius: 3px;
+	-khtml-border-top-left-radius: 3px;
+	border-top-left-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-o-border-top-right-radius: 3px;
+	-ms-border-top-right-radius: 3px;
+	-khtml-border-top-right-radius: 3px;
+	border-top-right-radius: 3px;
 }
 
 .journal-viewable-post .journal-viewable-post-footer i {
-  font-size: 1em;
-  vertical-align: middle;
-  display: inline-block;
+	font-size: 1em;
+	vertical-align: middle;
+	display: inline-block;
 }
 
-.journal-viewable-post .journal-viewable-post-footer input.post-comment {
- width:95% 
+.journal-viewable-post .journal-viewable-post-footer input.post-comment
+	{
+	width: 95%
 }

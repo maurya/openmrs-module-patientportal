@@ -1,43 +1,42 @@
-nav a, nav a:visited, nav a:hover, nav a:link {
-  color: white;
-   text-decoration: none;
+nav a,nav a:visited,nav a:hover,nav a:link {
+	color: white;
+	text-decoration: none;
 }
 
 nav {
-  padding: 5px 10px;
-  background: #333;
-  border-top: 1px solid #eee;
-  border-radius: 0 0 3px 3px;
-  
+	padding: 5px 10px;
+	background: #333;
+	border-top: 1px solid #eee;
+	border-radius: 0 0 3px 3px;
 }
+
 nav a {
-  display: inline-block;
-  margin-right: 20px;
+	display: inline-block;
+	margin-right: 20px;
 }
 
 nav  a {
-  color: #eee;
-  text-decoration: none;
+	color: #eee;
+	text-decoration: none;
 }
 
 nav  a:hover {
-  color: #ffa000;
-  text-decoration: none;
-  
+	color: #ffa000;
+	text-decoration: none;
 }
 
 nav a.active {
-  color: #ffa000;
-  text-decoration: none;
+	color: #ffa000;
+	text-decoration: none;
 }
 
- li a, li a:visited, li a:hover, li a:link {
-  text-decoration: none;
+li a,li a:visited,li a:hover,li a:link {
+	text-decoration: none;
 }
 
 .openmrs-logo {
-float: left;
-  margin: 4px;
-  width: 45px;
-  height: 45px;
+	float: left;
+	margin: 4px;
+	width: 45px;
+	height: 45px;
 }

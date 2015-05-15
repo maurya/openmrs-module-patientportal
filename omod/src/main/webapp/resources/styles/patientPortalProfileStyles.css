@@ -1,41 +1,48 @@
-  .contact-info-inline {
-      font-size: 0.6em;
-
-      small {
-        position: relative;
-        top: -15px;
-      }
-    }
-    .patient-header  {
-    background: white !important;
-    }
-    .name {
-    color:  #333 !important;
-    }
- .info-info {
-color:  #333 !important;
+.contact-info-inline {
+	font-size: 0.6em; small { position : relative;
+	top: -15px;
 }
- .info-detail {
- padding-left: 5px !important;
-color: #888; !important;
-}
- .gender-ages {
- 	  text-decoration:none;
-      font-size: 0.6em;
-      vertical-align: top;
-      margin-top: 10px;
 
-      small {
-        margin-left: 10px;
-      }
-    }
-    table, caption, tbody, tfoot, thead, tr, th, td {
-    margin: 0 !important;
-    padding: 0 !important;
-    padding-left: 4px !important;
-    border: 0 !important;
-    outline: 0 !important;
-    font-size: 100% !important;
-    vertical-align: baseline !important;
-    background: transparent !important;
+}
+.patient-header {
+	background: white !important;
+}
+
+.name {
+	color: #333 !important;
+}
+
+.info-info {
+	color: #333 !important;
+}
+
+.info-detail {
+	padding-left: 5px !important;
+	color: #888;
+	!
+	important;
+}
+
+.gender-ages {
+	text-decoration: none;
+	font-size: 0.6em;
+	vertical-align: top;
+	margin-top: 10px;
+	small
+	{
+	margin-left
+	:
+	10px;
+}
+
+}
+table,caption,tbody,tfoot,thead,tr,th,td {
+	margin: 0 !important;
+	padding: 0 !important;
+	padding-left: 4px !important;
+	border: 0 !important;
+	outline: 0 !important;
+	font-size: 100% !important;
+	vertical-align: baseline !important;
+	background: transparent !important;
 }

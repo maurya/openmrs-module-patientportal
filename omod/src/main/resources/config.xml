@@ -6,29 +6,45 @@
 	<id>${project.parent.artifactId}</id>
 	<name>${project.parent.name}</name>
 	<version>${project.parent.version}</version>
-	<package>${project.parent.groupId}.${project.parent.artifactId}</package>
+	<package>${project.parent.groupId}.${project.parent.artifactId}
+	</package>
 	<author>maurya</author>
 	<description>
 		${project.parent.description}
 	</description>
-	<updateURL>https://modules.openmrs.org/modules/download/${project.parent.artifactId}/update.rdf</updateURL>
+	<updateURL>https://modules.openmrs.org/modules/download/${project.parent.artifactId}/update.rdf
+	</updateURL>
 	<require_version>${openMRSVersion}</require_version>
 	<!-- / Module Properties -->
 
 
 	<!-- Module Activator -->
-	<activator>${project.parent.groupId}.${project.parent.artifactId}.PatientPortalActivator</activator>
+	<activator>${project.parent.groupId}.${project.parent.artifactId}.PatientPortalActivator
+	</activator>
 
 
 	<!-- Adds link to admin page -->
 	<extension>
 		<point>org.openmrs.admin.list</point>
-		<class>${project.parent.groupId}.${project.parent.artifactId}.extension.html.AdminList</class>
+		<class>${project.parent.groupId}.${project.parent.artifactId}.extension.html.AdminList
+		</class>
 	</extension>
 
+	<filter>
+		<filter-name>Patient Portal Web Service Authorization</filter-name>
+		<filter-class>org.openmrs.module.patientportal.web.filter.AuthorizationFilter
+		</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>Patient Portal Web Service Authorization</filter-name>
+		<url-pattern>/ws/patientportal/*</url-pattern>
+	</filter-mapping>
 	<require_modules>
 		<require_module>
 			org.openmrs.module.uiframework
+		</require_module>
+		<require_module>
+			org.openmrs.module.webservices.rest
 		</require_module>
 	</require_modules>
 	<!-- Maps hibernate file's, if present -->
